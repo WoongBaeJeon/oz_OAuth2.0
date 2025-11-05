@@ -6,7 +6,7 @@ const kakaoClientId = "782af7c58d8411d960e0c2e248da22d9";
 const redirectURI = "http://127.0.0.1:5500";
 
 const naverClientId = "gnMzrNCyNc9wUfW3oBtt";
-const naverClientSecret = "QSQ1bve5yv";
+const naverClientSecret = process.env.NAVER_CLIENT_SECRET;
 const naverSecret = "it_is_me";
 
 const app = express();

@@ -11,7 +11,6 @@ const redirectURI = "http://127.0.0.1:5500";
 let kakaoAccessToken = "";
 
 const naverClientId = "gnMzrNCyNc9wUfW3oBtt";
-const naverClientSecret = "QSQ1bve5yv";
 const naverSecret = "it_is_me";
 let naverAccessToken = "";
 
